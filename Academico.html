@@ -6,21 +6,19 @@
     <title>Academico</title>
     <link rel="stylesheet" href="estilos.css">
     <style>
-        th{color: rgba(0, 0, 252, 0.459);}
+        th{
+            font-family: monospace;
+        }
+        td{
+            font-family: monospace;
+        }
         table{margin: auto;}
     </style>
 </head>
 <body>
-    <a href="https://scholar.google.es/schhp?hl=es" target="_blank">Academico1</a>
-    <br>
-    <a href="https://educacionprivada.org/" target="_blank">Academico2</a>
-    <br>
-    <a href="Actividades/Evolucion HTML.pdf">Descargar</a>
-    <br>
-    <a href="Artistas/Anuel.html">
-        Mi artista favorito
-    </a>
+    <h1>Este es mi horario de clases</h1>
     <div>
+        <h3>Estudio en la Universidad del norte.<br>Este es mi horario y mis materias:</h3>
         <table border="1">
         <tr><th>Hora</th><th>Materia</th><th>Nombre del maestro</th><th>Salon</th></tr>
         <tr><td>Primera</td><td>Economia</td><td>Ulises López Flores</td><td>216</td></tr>
@@ -30,8 +28,9 @@
         <tr><td>Quinta</td><td>Contabilidad</td><td>Silvia Nieto Gonzalez</td><td>307</td></tr>
         <tr><td>Sexta</td><td>Ingles</td><td>Mayra Yaneth Bazan Alvarez</td><td>307</td></tr>
         </table>
+        <h3>Las siguientes son mis calificaciones en los examenes:</h3>
         <table border="1">
-            <thead style="background-color: rgb(94, 236, 225);">
+            <thead style="background-color: #8E8F95; color: black;">
                 <tr>
                     <th> Materia</th>
                     <th>Parcial 1</th>
@@ -41,7 +40,7 @@
                     <th>Cal.Final</th>
                 </tr>
             </thead>
-            <tbody style="background-color: rgb(74, 74, 255);">
+            <tbody style="background-color: #E9B033;">
                 <tr>
                     <td>Economia</td>
                     <td>0</td>
@@ -81,7 +80,7 @@
                     <td>0</td>
                 </tr>
             </tbody>
-            <tfoot style="background-color:rgb(94, 236, 225) ;">
+            <tfoot style="background-color:#8E8F95 ;">
                 <td>Total</td> 
                 <td>0</td>
                 <td>0</td>
@@ -90,7 +89,12 @@
                 <td>0</td>
             </tfoot>
         </table>
-        <a href="index.html">Regreso a la pagina principal</a> 
+        <br>
+        <a 
+            href="index.html" 
+            style="font-size: 20px;">
+            Regreso a la pagina principal
+        </a> 
     </div>
 </body>
 </html>
